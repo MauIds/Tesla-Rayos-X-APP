@@ -1,4 +1,5 @@
-# Proyecto Guiado — Fase III: Tesla Rayos X & Control Biológico
+# Fase III: Tesla Rayos X & Control Biológico
+## Mauricio González Hernández 3009732 | 24/04/2026 | Desarrollo de proyecto de aplicaciones móviles | Docente: Vicente Medina Rodríguez
 
 ## 1. Introducción y Alcance
 
@@ -37,15 +38,15 @@ La Fase III comprende el análisis de requerimientos, diseño, construcción, pr
 
 ## 2. Diseño de la Solución
 
-### 2.1 Diseño Visual — Prototipado en Figma
+### 2.1 Diseño Visual — Prototipado en Google Stitch
 
-El prototipo de alta fidelidad fue elaborado en **Figma** antes de iniciar la construcción, cubriendo:
+El prototipo de alta fidelidad fue elaborado en **Stitch** antes de iniciar la construcción, cubriendo:
 
 - Flujos diferenciados por rol: cliente (Nueva Cita + Mis Solicitudes) y administrador (+ Panel Admin).
 - Sistema de diseño con paleta **Material 3** (`AppColors`), tipografía **Manrope** (Google Fonts) y componentes reutilizables (tarjetas, chips de estado, selectores de fecha/hora).
 - Prototipo interactivo para validar la navegación y la experiencia de usuario antes de escribir código.
 
-> **Enlace al prototipo Figma:** `[Insertar URL del prototipo aquí]`
+> **Enlace al prototipo Stitch:** `[https://stitch.withgoogle.com/projects/14163061471298241235]`
 
 ### 2.2 Diseño Funcional — Arquitectura Lógica y Modelo Relacional
 
@@ -170,7 +171,7 @@ Validan que cada flujo de negocio opera según los requerimientos.
 
 ```bash
 # 1. Clonar el repositorio
-git clone <url-del-repositorio>
+git clone https://github.com/MauIds/Tesla-Rayos-X-APP.git
 cd teslarayosx
 
 # 2. Instalar dependencias
@@ -195,13 +196,12 @@ flutter run
 
 | Vista | Captura |
 |---|---|
-| Pantalla de login | `![Login](./screenshots/login.png)` |
-| Registro de usuario | `![Signup](./screenshots/signup.png)` |
-| Nueva solicitud (formulario) | `![Nueva Cita](./screenshots/nueva_cita.png)` |
-| Mis solicitudes (tiempo real) | `![Mis Solicitudes](./screenshots/mis_solicitudes.png)` |
-| Panel administrador | `![Admin](./screenshots/admin.png)` |
-| Detalle de solicitud | `![Detalle](./screenshots/detalle.png)` |
-| Perfil de usuario | `![Perfil](./screenshots/perfil.png)` |
+| Pantalla de login | `![Login](https://drive.google.com/file/d/1zWB4NXk3EskdhzjOhaAiJLVIlXex5I9T/view?usp=sharing)` |
+| Registro de usuario | `![Signup](https://drive.google.com/file/d/1nqztou7hXi6KFBQfwVLF_VrOOOOitffe/view?usp=sharing)` |
+| Nueva solicitud (formulario) | `![Nueva Cita](https://drive.google.com/file/d/1HtK9Toz_tW7MW9ucBklZYjpacKmTSqhW/view?usp=sharing)` |
+| Mis solicitudes (tiempo real) | `![Mis Solicitudes](https://drive.google.com/file/d/1BMCSPPanOEdkfKXJoQuuR4YtzsEokl6O/view?usp=sharing)` |
+| Panel administrador | `![Admin](https://drive.google.com/file/d/1DAvz26ty4wqxc04I75Y8_rwqafvMNb3H/view?usp=sharing)` |
+| Perfil de usuario | `![Perfil](https://drive.google.com/file/d/174GVQ1JGh8Qwc6hI-_e6AVtjQLyyAhKH/view?usp=sharing)` |
 
 ---
 
@@ -209,10 +209,10 @@ flutter run
 
 | Entregable | Descripción | Estado |
 |---|---|---|
-| Documento de respaldo técnico | Este archivo `DOCUMENTACION_FASE_3.md` con análisis, diseño, stack, QA e integración | - [ ] Pendiente revisión |
-| Archivos fuente del código | Repositorio completo (Flutter app + `supabase_migrations.sql` + assets) | - [ ] Pendiente subida |
-| Certificado de LinkedIn Learning | Certificado del curso asociado al stack tecnológico (Flutter / Supabase / Firebase) | - [ ] Pendiente adjuntar |
-| Aplicación funcional | App instalable en Android con todos los RF implementados y probados | - [ ] Pendiente build final |
+| Documento de respaldo técnico | Este archivo `DOCUMENTACION_FASE_3.md` con análisis, diseño, stack, QA e integración | -  Aprobado |
+| Archivos fuente del código | Repositorio completo (Flutter app + `supabase_migrations.sql` + assets) | - Aprobado |
+| Certificado de LinkedIn Learning | Certificado del curso asociado al stack tecnológico (Swift) | - Aprobado |
+| Aplicación funcional | App instalable en Android con todos los RF implementados y probados | - Pendiente |
 
 ---
 
